@@ -39,13 +39,13 @@ Skill power (or just power) determine how badass that skill is. Minimum is 1, an
 ### Critical Hit Chance
 Critical hit chance is the probability of *normal damage* replaced with *critical hit damage*. 
 - The bigger the **Perception**, the more chance of crits hitting. 
-- The bigger then **Luck**, more severe damage you deal in your crit. 
+- The bigger the **Luck**, more severe damage you deal in your crit. 
 - The bigger the **Reflex**, the less chance of enemy crits hitting you. 
 
 So
-> Critical Hit Chance = (Your Perception - Enemy's Reflex)%
+> Critical Hit Chance of Your Attacks = (Your Perception - Enemy's Reflex)%
 
-> Critical Hit Damage = Normal Damage + Bonus Damage
+> Critical Hit Damage of Your Attacks = Normal Damage + Bonus Damage
 
 Where
 > Bonus Damage = Normal Damage x Luck/100
