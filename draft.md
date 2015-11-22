@@ -56,6 +56,28 @@ So
 Where
 > Bonus Damage = Normal Damage x Luck/100
 
+### EXP Needed to Level Up
+
+```Csharp
+public static int ExpNeedToLevelUp(int currentLevel)
+    {
+        if (Userid != null)
+        {
+            if (currentLevel == 0)
+            {
+                return 2007483647;
+            }
+
+            float result;
+            result = (((float)currentLevel * (float)currentLevel / 100) + ((float)currentLevel * (float)currentLevel / 20)) * 100;
+            return (int)result;
+        }
+        else { return 2007483647; }
+    }
+```
+
+Applies to both combat level and crafting level.
+
 # SGR: Crafting
 
 Materials nature:
@@ -77,3 +99,14 @@ All crafting requres Usable Part(s) based on total attributes it holds. 1 Usable
  
 **Craft**, will grants 100% Crafting EXP + Item if successfull.
 **Practice**, will grants 200% Crafting EXP and no item if successfull.
+
+**Success Rate**, depends on your crafting level and total attributes of the item you are trying to craft. 
+
+> Success Chance = ((Crafting Level - Total Attributes) x 10) + 50;
+
+```Csharp
+    int SuccesRate()
+    {
+       return ((craftinglevel - itemAttributes.Sum()) * 10) + 50;
+    }
+```
