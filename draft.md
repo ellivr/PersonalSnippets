@@ -18,6 +18,12 @@ List of attributes:
 ### Mental Damage Formula
 > Mental Damage = (Skill Power/100) x (3 x Mind - (2 x Enemy's Reasoning + 1 x Enemy's Determination)) + Skill Power/4
 
+### Shield Amount Formula 
+> Shield Amount = (Skill Power/100) x (2 x Resolve + 1 x Determination)/2
+
+### Heal Amount Formula
+> Heal Amount = (Skill Power/100) x (2 x Reasoning + 1 x Determination)/2
+
 ### Health Max
 > Health Max = 100 + (Vigour x 10)
 
@@ -49,3 +55,25 @@ So
 
 Where
 > Bonus Damage = Normal Damage x Luck/100
+
+# SGR: Crafting
+
+Materials nature:
+  - **Paper Scrap** : Mind.
+  - **Twig** : Strength.
+  - **Metal Scrap** : Vigour. 
+  - **Rotten Konjac** : Endurance.
+  - **Screw** : Reasoning.
+  - **Rubber Band** : Resolve.
+  - **Cloth** : Determination.
+  - **Chalk** : Perception.
+  - **Coin** : Reflex.
+  - **Omamori** : Luck.
+ 
+All crafting requres Usable Part(s) based on total attributes it holds. 1 Usable Part requred per 5 attributes, the amount is ceil'd. For example, 
+- Crafting +5 Strength Equiment will need 1 Usable Part
+- Crafting +6 Strength Equipment will need 2 Usable Part
+- Crafting +10 Strength Equipment will need 2 Usable Part
+ 
+**Craft**, will grants 100% Crafting EXP + Item if successfull.
+**Practice**, will grants 200% Crafting EXP and no item if successfull.
