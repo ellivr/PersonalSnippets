@@ -1,3 +1,27 @@
+# SGR: Crafting Items
+
+| Craft Item ID | Craft Item Name |
+|---------------|-----------------|
+| 0             | None            |
+| 1             | Usable Part     |
+| 2             | Paper Scrap     |
+| 3             | Twig            |
+| 4             | Metal Scrap     |
+| 5             | Rotten Konjac   |
+| 6             | Screw           |
+| 7             | Rubber Band     |
+| 8             | Cloth           |
+| 9             | Chalk           |
+| 10            | Coin            |
+| 11            | Omamori         |
+| 12            | Rice            |
+| 13            | Seaweed         |
+| 14            | Sulfur          |
+| 15            | Fuse            |
+| 16            | Water           |
+| 17            | Socks           |
+| 18            | Stone           |
+
 # SGR: Zones
 
 | Zone ID | Zone Name              |
