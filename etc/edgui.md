@@ -17,3 +17,13 @@ Khaki
 <MatrixBlue> 1, -0.42, -1 </MatrixBlue>
 </Default>
 ```
+
+Beige v2 by CMDR bILLy404
+```
+<Default>
+<LocalisationName>Standard</LocalisationName>
+<MatrixRed> 0.35, 0.22, 0 </MatrixRed>
+<MatrixGreen> 0, 0.25, 1 </MatrixGreen>
+<MatrixBlue> 0, 1, 0 </MatrixBlue>
+</Default>
+```
